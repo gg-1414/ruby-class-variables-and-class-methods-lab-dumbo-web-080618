@@ -45,7 +45,6 @@ class Song
         
       else 
         count << count[artist] => 1
-        
       end 
     end 
     count
