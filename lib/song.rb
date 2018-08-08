@@ -58,5 +58,5 @@ money_trees = Song.new("Money Trees", "Kendrick Lamar", "rap")
 ezra = Song.new("Ezra", "Flume", "EDM")
 get_you = Song.new("Get You", "Daniel Caesar", "R&B")
 
-Song.genre_count
+puts Song.genre_count
 
