@@ -43,6 +43,7 @@ class Song
         count[artist] += 1 
       else 
         count << count[artist] => 1
+        binding.pry
       end 
     end 
     count
