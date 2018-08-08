@@ -48,3 +48,8 @@ class Song
   
 end 
 
+ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
+money_trees = Song.new("Money Trees", "Kendrick Lamar", "rap")
+ezra = Song.new("Ezra", "Flume", "EDM")
+get_you = Song.new("Get You", "Daniel Caesar", "R&B")
+
