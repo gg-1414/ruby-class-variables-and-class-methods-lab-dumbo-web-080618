@@ -15,10 +15,35 @@ class Song
   end 
   
   def self.genres 
-    @@genres.uniq
+    @@genres
   end 
   
   def self.artists 
-    @@artists.uniq
+    @@artists
   end 
+  
+  def self.genre_count 
+    count = {}
+    @@genres.each do |genre|
+      if count.keys.include?(genre)
+        count[genre] += 1 
+      else 
+        count[genre] => 1
+      end 
+    end 
+    count
+  end 
+  
+  def self.artist_count 
+    count = {}
+    @@artists.each do |artist|
+      if count.keys.include?(artist)
+        count[artist] += 1 
+      else 
+        count[artist] => 1
+      end 
+    end 
+    count
+  end 
+  
 end 
