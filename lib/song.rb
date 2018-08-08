@@ -29,6 +29,7 @@ class Song
     @@genres.each do |genre|
       if genre_count.has_key?(genre)
         genre_count[genre] += 1 
+        binding.pry
       else 
         genre_count << genre_count[genre] => 1
       end 
@@ -41,7 +42,7 @@ class Song
     @@artists.each do |artist|
       if count.keys.include?(artist)
         count[artist] += 1 
-        binding.pry
+        
       else 
         count << count[artist] => 1
         
