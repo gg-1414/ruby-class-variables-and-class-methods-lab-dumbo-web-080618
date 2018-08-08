@@ -33,7 +33,7 @@ class Song
       if genre_count[genre].any?
         genre_count[genre] += 1 
       else 
-        genre_count << genre_count[genre] => 1
+        genre_count << genre_count[genre] = 1
       end 
     end 
     genre_count
