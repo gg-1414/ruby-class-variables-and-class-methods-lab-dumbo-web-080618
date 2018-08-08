@@ -28,7 +28,7 @@ class Song
       if count.keys.include?(genre)
         count[genre] += 1 
       else 
-        count[genre] => 1
+        count << count[genre] => 1
       end 
     end 
     count
@@ -40,7 +40,7 @@ class Song
       if count.keys.include?(artist)
         count[artist] += 1 
       else 
-        count[artist] => 1
+        count << count[artist] => 1
       end 
     end 
     count
