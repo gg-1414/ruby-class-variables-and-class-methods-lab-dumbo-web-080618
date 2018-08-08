@@ -41,9 +41,10 @@ class Song
     @@artists.each do |artist|
       if count.keys.include?(artist)
         count[artist] += 1 
+        binding.pry
       else 
         count << count[artist] => 1
-        binding.pry
+        
       end 
     end 
     count
