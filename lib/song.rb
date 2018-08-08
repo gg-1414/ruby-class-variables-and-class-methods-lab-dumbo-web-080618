@@ -59,4 +59,6 @@ ezra = Song.new("Ezra", "Flume", "EDM")
 get_you = Song.new("Get You", "Daniel Caesar", "R&B")
 
 puts Song.genre_count
+puts Song.artist_count
+
 
